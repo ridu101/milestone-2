@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Media Query</title>
+ <style>
+  .container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+  }
+   .bike{
+    border: 5px solid tomato;
+    border-radius:5px ;
+    padding: 10px;
+   }
+   .bike img{
+    width: 50%;
+   }
+
+   /*small device*/
+   @media screen and (max-width:576px) {
+    .container{
+     grid-template-columns: repeat(1, 1fr);
+    }
+    .bike{
+     background-color: rgb(175, 235, 241);
+    }
+   /*medium device*/
+   @media screen and (min-width:590px) and (max-width:992px) {
+    .container{
+     grid-template-columns: repeat(2, 1fr);
+    }
+    .bike{
+     background-color: brown;
+    }
+   }
+    
+   }
+ </style>
+</head>
+<body>
+
+
+  <div class="container">
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-1</h3>
+    <p>Price: $1000</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro perspiciatis facere velit laboriosam reiciendis! Porro accusamus ipsam aliquid consequuntur? Alias.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-2</h3>
+    <p>Price: $2000</p>
+    <p>Doloremque, unde praesentium? Accusantium nobis repellat consequuntur, pariatur, reiciendis architecto cum alias aut nostrum quia fugit amet tempore quos culpa!</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-3</h3>
+    <p>Price: $3000</p>
+    <p>Nobis praesentium a quis esse, qui repudiandae mollitia amet atque cupiditate rem nostrum nulla fugit, quasi, at numquam est aperiam!</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-4</h3>
+    <p>Price: $4000</p>
+    <p>Cupiditate dolorum quaerat veritatis reprehenderit perspiciatis assumenda, et atque nulla alias obcaecati blanditiis, impedit odit ipsam, vel distinctio aut dignissimos?</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-5</h3>
+    <p>Price: $5000</p>
+    <p>Omnis quam eum inventore tempora rerum odit, dicta distinctio, autem minus dignissimos consequatur fuga impedit non accusantium, possimus exercitationem molestiae?</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-6</h3>
+    <p>Price: $6000</p>
+    <p>Modi dolor ipsa natus illum ex aspernatur animi explicabo commodi, deserunt quasi velit tenetur eveniet cupiditate illo? Hic, vero? Sint!</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-7</h3>
+    <p>Price: $7000</p>
+    <p>Dolorem a id earum autem ex nisi optio dignissimos itaque dicta, deleniti architecto eius fugit ratione quas sit ut eligendi!</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-8</h3>
+    <p>Price: $8000</p>
+    <p>Repellendus, saepe error commodi velit non, delectus magni quae asperiores minus perferendis earum similique iure esse minima tenetur illo maxime?</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-9</h3>
+    <p>Price: $9000</p>
+    <p>Accusantium quisquam eligendi dolores sapiente iusto aut ea, culpa voluptatum itaque earum soluta vitae aliquid id maiores facere, quaerat ullam.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-10</h3>
+    <p>Price: $10000</p>
+    <p>Labore tenetur pariatur, eum doloribus nulla blanditiis dolor, aspernatur qui excepturi, consectetur dolore commodi nobis saepe aliquam repudiandae magni. Numquam.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-11</h3>
+    <p>Price: $11000</p>
+    <p>Eius illo accusamus ex sapiente quasi beatae corporis, vero magnam mollitia tempora? Officiis neque modi itaque pariatur ad voluptate non.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-12</h3>
+    <p>Price: $12000</p>
+    <p>Consectetur animi, similique vel ipsam ex praesentium quasi dolores! Veniam delectus magni quis consequuntur et quibusdam cupiditate nisi tempora libero.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-13</h3>
+    <p>Price: $13000</p>
+    <p>Harum voluptatibus, sunt odio beatae doloremque labore? Architecto, minima libero ab at id repellendus fugit quidem ea omnis officia quam.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-14</h3>
+    <p>Price: $14000</p>
+    <p>Placeat dolorem odit nemo obcaecati, perferendis vero sit asperiores id eligendi harum natus laboriosam amet. Nostrum culpa mollitia odio rem.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-15</h3>
+    <p>Price: $15000</p>
+    <p>Quo dolorem necessitatibus ipsum, cupiditate modi error natus neque reiciendis, quod nam nostrum mollitia, eaque fuga itaque sunt vero optio.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-16</h3>
+    <p>Price: $16000</p>
+    <p>Vitae earum, rerum quaerat quasi eius ab quibusdam aperiam corporis voluptatum expedita voluptates odio. Doloribus ipsum asperiores alias laboriosam ea.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-17</h3>
+    <p>Price: $17000</p>
+    <p>Pariatur aliquam optio fuga ipsum, quibusdam quasi asperiores ipsam nulla architecto voluptatum illo deleniti nobis ut. Quae quisquam minus voluptatem!</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-18</h3>
+    <p>Price: $18000</p>
+    <p>Ipsam beatae quibusdam cumque commodi laborum tenetur quod aliquam ad? Dolor mollitia aperiam eaque eveniet laudantium eos consequuntur labore at.</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-19</h3>
+    <p>Price: $19000</p>
+    <p>Veritatis dolore porro laborum aliquid nesciunt modi? Reiciendis sapiente cum mollitia saepe iure minima sint non libero amet, atque debitis!</p>
+    <button>Buy Now</button>
+   </div>
+   <div class="bike">
+    <img src="images/bike.jpg" alt="">
+    <h3>Bike Item-20</h3>
+    <p>Price: $20000</p>
+    <p>Magnam quasi aut tenetur sed, et unde quis. Necessitatibus commodi porro provident hic corrupti officiis itaque at? Dolorum, ad dignissimos!</p>
+    <button>Buy Now</button>
+   </div>
+  </div>
+
+ 
+</body>
+</html>
